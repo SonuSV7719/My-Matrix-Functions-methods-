@@ -79,7 +79,7 @@ def matSubtraction(mat1, mat2, r, c):
         for i in range(r):
             subList = []
             for j in range(c):
-                sum = mat1[i][j]+mat2[i][j]
+                sum = mat1[i][j]-mat2[i][j]
                 subList.append(sum)
             subtraction.append(subList)
         return subtraction  
